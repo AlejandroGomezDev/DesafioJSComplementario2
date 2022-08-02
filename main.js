@@ -10,7 +10,7 @@ class Goles{
     }
 }
 
-let cantidadGoles = []
+const cantidadGoles = []
 
 const gol1 = new Goles("28/09/2021", "Manchester City", "2-0", "2-2", "UCL Grupos")
 cantidadGoles.push(gol1)

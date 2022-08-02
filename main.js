@@ -1,5 +1,6 @@
 //crear un array que contenga la cantidad de goles que tiene Messi en el PSG, y que cada gol sea un objeto con la informacion de cada gol.
 
+//Creamos la class
 class Goles{
     constructor(fecha, oponente, marcador, resultado, competicion){
         this.fecha = fecha,
@@ -10,8 +11,10 @@ class Goles{
     }
 }
 
+//Creamos la array
 const cantidadGoles = []
 
+//instanciamos los objetos y pusheamos al array
 const gol1 = new Goles("28/09/2021", "Manchester City", "2-0", "2-2", "UCL Grupos")
 cantidadGoles.push(gol1)
 const gol2 = new Goles("19/10/2021", "Leipzig", "2-2", "3-2", "UCL Grupos")
@@ -37,6 +40,7 @@ cantidadGoles.push(gol11)
 const gol12 = new Goles("31/07/2022", "Nantes", "1-0", "4-0", "SuperCopa de Francia")
 cantidadGoles.push(gol12)
 
-
+//mostramos en consola la array
 console.log(cantidadGoles)
+//mostramos en consola la cantidad de goles en total que tiene messi en el PSG
 console.log(`Messi tiene ${cantidadGoles.length} goles en el PSG`)
